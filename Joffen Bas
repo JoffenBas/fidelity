@@ -1,0 +1,66 @@
+//Name:JOFFEN BAS   
+//Section: Fidelity    
+// Year: 4th Year
+  
+    //Name:JOFFEN BAS
+    //Section: Fidelity
+    // Year: 4th Year
+
+
+import java.util.Scanner;
+
+public class Main{
+
+  public static void main(String[]args){
+   
+    
+    Scanner console = new Scanner(System.in);
+     int myVar, total = 0, average, numberOfLoops=0;
+
+     System.out.println("Do you want to order?: ");System.out.println("Please type number 1 if you wish to proceed");
+       
+     myVar = console.nextInt();
+     total += myVar;
+
+
+     while (total < 150){
+        System.out.println("FOODS BELOW,minimum of above $150 order only");
+        System.out.println("ENTER THE PRICE IF YOU CHOOSE YOUR ORDER.");
+        
+        
+        System.out.println("$40:Chicken");
+       System.out.println("$35:Ramen");
+       System.out.println("$15:Hamburger");
+       System.out.println("$20:Rice");
+       System.out.println("$25:Steak");
+       System.out.println("$30:Brocolli Soup.");
+        System.out.println("ADD SNACKS BELOW");
+       System.out.println("$10:Biscuits");
+       System.out.println("$15:Bread");
+       System.out.println("$10:Piatoss");
+       System.out.println("ADD BEVERAGES/DRINKS BELOW");
+       System.out.println("$20:Coke"); 
+      System.out.println("$15:Sprite");
+       System.out.println("$30:RedHorse");
+       System.out.println("$20:Emperador");
+        myVar = console.nextInt();
+        total += myVar;
+
+
+       numberOfLoops++;
+     }
+
+
+     System.out.println("Total of your Order: " + total);
+     
+
+
+
+
+
+  }
+
+
+
+
+}
